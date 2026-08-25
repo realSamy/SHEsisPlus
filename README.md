@@ -24,7 +24,7 @@ The same command can be used to install SHEsisPlus on a remote Linux VPS or dire
 Run the following command as root or with sufficient privileges:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/realSamy/SHEsisPlus/master/deploy.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/celaoforever/SHEsisPlus/master/deploy.sh)
 ```
 
 > **Warning**: Review the deployment script before executing it, especially when installing on production systems.
