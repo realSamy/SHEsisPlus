@@ -67,7 +67,7 @@ docker compose pull
 docker compose up -d
 
 echo "=========================================="
-echo " SHEsisPlus is running at: http://$(curl -s ifconfig.me || echo 'localhost'):5903"
+echo " SHEsisPlus is running at: http://$(curl -s ipconfig.io || echo 'localhost'):5903"
 echo " Project location: $PROJECT_DIR"
 echo " View logs: cd $PROJECT_DIR && docker compose logs -f"
 echo "=========================================="
